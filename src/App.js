@@ -2,9 +2,11 @@
 //imports dependencies and files
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
-import
-// import Jumbotron from "./components/Jumbotron";
-import './App.css';
+import Jumbotron from "./components/Jumbotron";
+import FriendCard from "./components/FriendCard";
+import Footer from "./components/Footer";
+import cat from "./cat.json";
+import "./App.css";
 
 //sets state to 0 or empty
 class App extends Component {
@@ -60,15 +62,27 @@ class App extends Component {
     }
   }
 
-  render() {
-    return (
-      <div>
-        <Navbar/>
-        <Header/>
-        <Container/>
+//the order of components to be rendered: navbar, jumbotron, friendcard, footer
+render() {
+  return (
+    <div>
+      <Navbar
+        score={this.state.score}
+      />
+      <Jumbotron />
+      <div className="wrapper">
+        {this.state.cat.map(fish => (
+          <FriendCard
+            imageClick={this.imageClick}
+            id={cat.id}
+            key={cat.id}
+            image={cat.image}
+          />
+        ))}
       </div>
-    )
-  }
+      <Footer />
+    </div>
+  );
 }
-
+}
 export default App;
