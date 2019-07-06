@@ -19,6 +19,34 @@
     "id": 5,
     "image": "tabby2.jpg"
 
+  },
+  {
+    "id": 6,
+    "image": "tabby3.jpg"
+  },
+  {
+    "id": 7,
+    "image": "siamese1.jpg"
+  },
+  {
+    "id": 8,
+    "image": "siamese2.jpg"
+  },
+  {
+    "id": 9,
+    "image": "siamese3.jpg"
+  },
+  {
+    "id": 10,
+    "image": "ocicat1.jpg"
+  },
+  {
+    "id":11,
+    "image": "ocicat2.jpg"
+    },
+  {
+    "id": 12,
+    "image": "ocicat3.jpg"
   }
 
 ]

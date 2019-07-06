@@ -1,0 +1,12 @@
+
+
+  .Card > .img-container > img{
+  border: 6px rgb(99, 99, 99) solid;
+  border-radius: 8px;
+  width: 200px;
+  height: 200px;
+  margin: 2rem;
+ position: relative;
+   box-shadow: 4px 4px 10px rgb(56, 56, 56);
+  /* transition: all .2s ease-in-out; */
+ }
