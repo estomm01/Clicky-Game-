@@ -1,7 +1,7 @@
 
 # ClickMe
 
-
+Test your memory with different cat breeds with the ClickMe game. ClickMe is a memory skill application built using React. The objective of the game is to be able to go through and click each cat image once. Each time you click a player's image, your score goes up by one. If you click a player's image twice, you lose and the game resets (score goes back to 0).
 
 ## Available Scripts
 
