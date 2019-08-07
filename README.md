@@ -7,7 +7,7 @@ Test your memory with different cat breeds with the ClickMe game. ClickMe is a m
 * [How the app is built](#how-the-app-is-built)
 
 ### <a name="how-app-works"></a> How the app works
-When you open the application, you will see images of 12 players. To start the game, click a player image. Each player in the players.json file has a property named "clicked." By default, each player starts out with a clicked value of false. When you click a player, the clicked value for that player is set to true. The object of the game is to click every player once and only once. When you click a player for the first time, your score goes up by one. But, if you click a player more than once (that is, click a player with a clicked value of true), the score will reset, and you have to start over. When the game is reset, each player's clicked value is set back to false. You win the game when you click each player on the screen once (that is, every player in players.json has a clicked value of true).
+When you open the application, you will see images of 12 cats. To start the game, click a cat image. Each cat in the cats.json file has a property named "clicked." By default, each cat starts out with a clicked value of false. When you click a cat, the clicked value for that cat is set to true. The object of the game is to click every player once and only once. When you click a cat for the first time, your score goes up by one. But, if you click a cat more than once (that is, click a cat with a clicked value of true), the score will reset, and you have to start over. When the game is reset, each cats clicked value is set back to false. You win the game when you click each cat on the screen once (that is, every cat in cats.json has a clicked value of true).
 
 ### <a name="how-the-app-is-built"></a> How the app is built
 
@@ -23,7 +23,7 @@ For more information on how this project is structured and broken into various c
 
 The following section will take you through the steps of setting up this application and getting it running locally on your computer.
 
-If you don't want to set up this project locally and just want to see the deployed application, go to <https://clickme-d27eb.firebaseapp.com/>.
+If you don't want to set up this project locally and just want to see the deployed application, go to <https://clickme.com/>.
 
 To set up this application locally on your computer, perform the following steps:
 
@@ -56,9 +56,9 @@ The first step is to clone the project repository to a local directory on your c
     <p><b>src</b>: In the src folder, there are 4 main parts of the application to pay attention to.</p>
     <ul>
       <li><b>index.js:</b> The index.js file is the top level file of the React application. In index.js, the App.js file is imported, and the ReactDOM.render method is used to render App.js to the page.</li>
-      <li><b>App.js:</b> The App.js file is where the application components are imported and rendered, such as the navigation bar, footer, and player images. This file also defines a class that allows various states of the application to be updated throughout the game, including the score, top score, a player's clicked value, and the game message displayed in the top navigation bar.</li>
+      <li><b>App.js:</b> The App.js file is where the application components are imported and rendered, such as the navigation bar, footer, and player images. This file also defines a class that allows various states of the application to be updated throughout the game, including the score, top score, a cats clicked value, and the game message displayed in the top navigation bar.</li>
       <li><b>Components:</b> The Components folder is where the app components are located. Each file represents a separate component. For example, Navbar.js is the top navigation bar component.</li>
-      <li><b>players.json:</b> The players.json file contains an array of objects. Each object is a player that gets rendered to the page. Each object contains four properties, id, name, image, and clicked. By default, clicked is set to false. When the user clicks a player, that player's clicked value gets set to true so that the application can keep track of which players have already been clicked (clicked is true) and which players have not been clicked (clicked is false).</li>
+      <li><b>cats.json:</b> The cats.json file contains an array of objects. Each object is a cat that gets rendered to the page. Each object contains four properties, id, name, image, and clicked. By default, clicked is set to false. When the user clicks a cat, that cats clicked value gets set to true so that the application can keep track of which cats have already been clicked (clicked is true) and which cats have not been clicked (clicked is false).</li>
   </li>
   <li><b>package.json</b>: Lists the project dependencies and their version numbers.</li>
   <li><b>.gitignore</b>: Anything listed inside this file (for example, node_modules) will not be tracked by GitHub when code is committed.</li>
