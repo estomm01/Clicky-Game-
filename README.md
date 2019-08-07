@@ -69,6 +69,16 @@ For a high level overview of React, check out this video: https://www.youtube.co
 
 The React documentation is available at https://reactjs.org/.
 
+If you would like to deploy to heroku, see [Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration).
+
+## <a name="technologies-used"></a> Technologies used to build app
+
+* HTML
+* CSS
+* Bootstrap (<http://getbootstrap.com/>)
+* Javascript
+* React (<https://reactjs.org/>)
+
 For more information on how this project is structured and broken into various components, see Structure of the project.
 
 ## Available Scripts
